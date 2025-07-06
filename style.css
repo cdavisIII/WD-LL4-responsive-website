@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fddcc4;
+  color: #1a1a1a;
+}
+
+.navbar {
+  background-color: #fddcc4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 3px solid #000;
+}
+
+.nav-left a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.brand img {
+  margin-right: 10px;
+}
+
+.donate-button button {
+  background-color: #ffcf2f;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1a1a1a;
+  color: #000;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.message-section {
+  flex: 1;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.speech-bubble {
+  background-color: #fddcc4;
+  padding: 20px;
+  border-radius: 40px;
+  margin-bottom: 30px;
+}
+
+.steps {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.step {
+  background-color: #fddcc4;
+  padding: 15px 25px;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.sidebar {
+  background-color: #fddcc4;
+  padding: 20px;
+  max-width: 250px;
+  border-left: 3px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quote-box, .faq-box {
+  border: 2px solid #000;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fddcc4;
+}
